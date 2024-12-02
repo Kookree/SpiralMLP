@@ -1,0 +1,122 @@
+Models:
+- Name: spiral-b1-in1k-pre_upernet_8xb2-160k_ade20k-512x512
+  In Collection: UPerNet
+  Results:
+    Task: Semantic Segmentation
+    Dataset: ADE20K
+    Metrics:
+      mIoU: 44.41
+      mIoU(ms+flip): 45.79
+  Config: configs/spiral/spiral-b1-in1k-pre_upernet_8xb2-160k_ade20k-512x512.py
+  Metadata:
+    Training Data: ADE20K
+    Batch Size: 16
+    Architecture:
+    - SpiralNet-B1
+    - UPerNet
+    Training Resources: 4x A100 GPUS
+    Memory (GB): 5.02
+#  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542-e380ad3e.pth
+#  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542.log.json
+#  Paper:
+#    Title: 'Swin Transformer: Hierarchical Vision Transformer using Shifted Windows'
+#    URL: https://arxiv.org/abs/2103.14030
+#  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/backbones/swin.py#L524
+#  Framework: PyTorch
+########################
+- Name: spiral-b2-in1k-pre_upernet_8xb2-160k_ade20k-512x512
+  In Collection: UPerNet
+  Results:
+    Task: Semantic Segmentation
+    Dataset: ADE20K
+    Metrics:
+      mIoU: 44.41
+      mIoU(ms+flip): 45.79
+  Config: configs/spiral/spiral-b2-in1k-pre_upernet_8xb2-160k_ade20k-512x512.py
+  Metadata:
+    Training Data: ADE20K
+    Batch Size: 16
+    Architecture:
+    - SpiralNet-B2
+    - UPerNet
+    Training Resources: 4x A100 GPUS
+    Memory (GB): 5.02
+#  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542-e380ad3e.pth
+#  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542.log.json
+#  Paper:
+#    Title: 'Swin Transformer: Hierarchical Vision Transformer using Shifted Windows'
+#    URL: https://arxiv.org/abs/2103.14030
+#  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/backbones/swin.py#L524
+#  Framework: PyTorch
+- Name: spiral-b3-in1k-pre_upernet_8xb2-160k_ade20k-512x512
+  In Collection: UPerNet
+  Results:
+    Task: Semantic Segmentation
+    Dataset: ADE20K
+    Metrics:
+      mIoU: 44.41
+      mIoU(ms+flip): 45.79
+  Config: configs/spiral/spiral-b3-in1k-pre_upernet_8xb2-160k_ade20k-512x512.py
+  Metadata:
+    Training Data: ADE20K
+    Batch Size: 16
+    Architecture:
+    - SpiralNet-B3
+    - UPerNet
+    Training Resources: 4x A100 GPUS
+    Memory (GB): 5.02
+#  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542-e380ad3e.pth
+#  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542.log.json
+#  Paper:
+#    Title: 'Swin Transformer: Hierarchical Vision Transformer using Shifted Windows'
+#    URL: https://arxiv.org/abs/2103.14030
+#  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/backbones/swin.py#L524
+#  Framework: PyTorch
+- Name: spiral-b4-in1k-pre_upernet_8xb2-160k_ade20k-512x512
+  In Collection: UPerNet
+  Results:
+    Task: Semantic Segmentation
+    Dataset: ADE20K
+    Metrics:
+      mIoU: 44.41
+      mIoU(ms+flip): 45.79
+  Config: configs/spiral/spiral-b4-in1k-pre_upernet_8xb2-160k_ade20k-512x512.py
+  Metadata:
+    Training Data: ADE20K
+    Batch Size: 16
+    Architecture:
+    - SpiralNet-B4
+    - UPerNet
+    Training Resources: 4x A100 GPUS
+    Memory (GB): 5.02
+#  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542-e380ad3e.pth
+#  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542.log.json
+#  Paper:
+#    Title: 'Swin Transformer: Hierarchical Vision Transformer using Shifted Windows'
+#    URL: https://arxiv.org/abs/2103.14030
+#  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/backbones/swin.py#L524
+#  Framework: PyTorch
+- Name: spiral-b5-in1k-pre_upernet_8xb2-160k_ade20k-512x512
+  In Collection: UPerNet
+  Results:
+    Task: Semantic Segmentation
+    Dataset: ADE20K
+    Metrics:
+      mIoU: 44.41
+      mIoU(ms+flip): 45.79
+  Config: configs/spiral/spiral-b5-in1k-pre_upernet_8xb2-160k_ade20k-512x512.py
+  Metadata:
+    Training Data: ADE20K
+    Batch Size: 16
+    Architecture:
+    - SpiralNet-B5
+    - UPerNet
+    Training Resources: 4x A100 GPUS
+    Memory (GB): 5.02
+#  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542-e380ad3e.pth
+#  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k_pretrain_224x224_1K_20210531_112542.log.json
+#  Paper:
+#    Title: 'Swin Transformer: Hierarchical Vision Transformer using Shifted Windows'
+#    URL: https://arxiv.org/abs/2103.14030
+#  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/backbones/swin.py#L524
+#  Framework: PyTorch

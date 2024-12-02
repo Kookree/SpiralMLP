@@ -1,0 +1,134 @@
+Models:
+  - Name: retinanet_spiral-b1_fpn_1x_coco
+    In Collection: RetinaNet
+    Config: configs/spiral/retinanet_spiral-b1_fpn_1x_coco.py
+    Metadata:
+      Training Memory (GB): 9.5
+      Epochs: 12
+      Training Data: COCO
+      Training Techniques:
+        - SGD with Momentum
+        - Weight Decay
+      Training Resources: 4x NVIDIA A100 GPUs
+      Architecture:
+        - SpiralNet
+    Results:
+      - Task: Object Detection
+        Dataset: COCO
+        Metrics:
+          box AP: 41.2
+#    Weights: ./mumu_pretrained/spiral_b1_300.pth
+#    Paper:
+#      URL: https://arxiv.org/abs/2106.13797
+#      Title: "PVTv2: Improved Baselines with Pyramid Vision Transformer"
+    README: configs/spiral/README.md
+    Code:
+#      URL: https://github.com/open-mmlab/mmdetection/blob/v2.17.0/mmdet/models/backbones/spiral.py#L543
+#      Version: 2.17.0
+
+  - Name: retinanet_spiral-b2_fpn_1x_coco
+    In Collection: RetinaNet
+    Config: configs/spiral/retinanet_spiral-b2_fpn_1x_coco.py
+    Metadata:
+      Training Memory (GB): 16.2
+      Epochs: 12
+      Training Data: COCO
+      Training Techniques:
+        - SGD with Momentum
+        - Weight Decay
+      Training Resources: 4x NVIDIA A100 GPUs
+      Architecture:
+        - SpiralNet
+    Results:
+      - Task: Object Detection
+        Dataset: COCO
+        Metrics:
+          box AP: 44.6
+#    Weights: ./mumu_pretrained/spiral_b2_300.pth
+#    Paper:
+#      URL: https://arxiv.org/abs/2106.13797
+#      Title: "PVTv2: Improved Baselines with Pyramid Vision Transformer"
+    README: configs/spiral/README.md
+#    Code:
+#      URL: https://github.com/open-mmlab/mmdetection/blob/v2.17.0/mmdet/models/backbones/spiral.py#L543
+#      Version: 2.17.0
+
+  - Name: retinanet_spiral-b3_fpn_1x_coco
+    In Collection: RetinaNet
+    Config: configs/spiral/retinanet_spiral-b3_fpn_1x_coco.py
+    Metadata:
+      Training Memory (GB): 23.0
+      Epochs: 12
+      Training Data: COCO
+      Training Techniques:
+        - SGD with Momentum
+        - Weight Decay
+      Architecture:
+        - SpiralNet
+    Results:
+      - Task: Object Detection
+        Dataset: COCO
+        Metrics:
+          box AP: 46.0
+#    Weights: ./mumu_pretrained/spiral_b3_300.pth
+#    Paper:
+#      URL: https://arxiv.org/abs/2106.13797
+#      Title: "PVTv2: Improved Baselines with Pyramid Vision Transformer"
+    README: configs/spiral/README.md
+#    Code:
+#      URL: https://github.com/open-mmlab/mmdetection/blob/v2.17.0/mmdet/models/backbones/spiral.py#L543
+#      Version: 2.17.0
+
+  - Name: retinanet_spiral-b4_fpn_1x_coco
+    In Collection: RetinaNet
+    Config: configs/spiral/retinanet_spiral-b4_fpn_1x_coco.py
+    Metadata:
+      Training Memory (GB): 17.0
+      Epochs: 12
+      Training Data: COCO
+      Training Techniques:
+        - SGD with Momentum
+        - Weight Decay
+      Training Resources: 4x NVIDIA A100 GPUs
+      Architecture:
+        - SpiralNet
+    Results:
+      - Task: Object Detection
+        Dataset: COCO
+        Metrics:
+          box AP: 46.3
+#    Weights: ./mumu_pretrained/spiral_b4_300.pth
+#    Paper:
+#      URL: https://arxiv.org/abs/2106.13797
+#      Title: "PVTv2: Improved Baselines with Pyramid Vision Transformer"
+    README: configs/spiral/README.md
+#    Code:
+#      URL: https://github.com/open-mmlab/mmdetection/blob/v2.17.0/mmdet/models/backbones/spiral.py#L543
+#      Version: 2.17.0
+
+  - Name: retinanet_spiral-b5_fpn_1x_coco
+    In Collection: RetinaNet
+    Config: configs/spiral/retinanet_spiral-b5_fpn_1x_coco.py
+    Metadata:
+      Training Memory (GB): 18.7
+      Epochs: 12
+      Training Data: COCO
+      Training Techniques:
+        - SGD with Momentum
+        - Weight Decay
+      Training Resources: 4x NVIDIA A100 GPUs
+      Architecture:
+        - SpiralNet
+    Results:
+      - Task: Object Detection
+        Dataset: COCO
+        Metrics:
+          box AP: 46.1
+ #   Weights: ./mumu_pretrained/spiral_b5_300.pth
+ #   Paper:
+ #     URL: https://arxiv.org/abs/2106.13797
+ #     Title: "PVTv2: Improved Baselines with Pyramid Vision Transformer"
+    README: configs/spiral/README.md
+ #   Code:
+ #     URL: https://github.com/open-mmlab/mmdetection/blob/v2.17.0/mmdet/models/backbones/spiral.py#L543
+ #     Version: 2.17.0
